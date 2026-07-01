@@ -1,1 +1,7 @@
 .superpowers/
+node_modules/
+build/
+coverage/
+.env
+*.enc
+*.log

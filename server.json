@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.oktopeak/intakeq-mcp",
+  "title": "IntakeQ MCP",
+  "description": "IntakeQ/PracticeQ MCP connector with HIPAA §164.312(b) audit logging on every PHI read/write",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://https://github.com/oktopeak/IntakeQ",
+    "source": "github"
+  },
+  "websiteUrl": "https://https://github.com/oktopeak/IntakeQ",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@oktopeak/intakeq-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "INTAKEQ_API_KEY",
+          "description": "IntakeQ API key (optional — prefer the set_api_key tool)",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "INTAKEQ_API_BASE",
+          "description": "Override the default IntakeQ API base URL (https://intakeq.com/api/v1)",
+          "isRequired": false
+        },
+        {
+          "name": "MCP_API_KEY",
+          "description": "Bearer token gate on the HTTP /mcp endpoint. Required in http mode unless MCP_ALLOW_NO_AUTH is true",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "MCP_ALLOW_NO_AUTH",
+          "description": "Set to true to allow HTTP mode without MCP_API_KEY (local development only)",
+          "isRequired": false
+        },
+        {
+          "name": "TRANSPORT",
+          "description": "Transport mode: stdio (default) or http",
+          "isRequired": false
+        },
+        {
+          "name": "MCP_BASE_URL",
+          "description": "Base URL for HTTP transport (e.g. http://127.0.0.1:3000)",
+          "isRequired": false
+        },
+        {
+          "name": "PORT",
+          "description": "HTTP listen port (default 3000). HTTP transport only.",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
