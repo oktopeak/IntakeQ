@@ -150,3 +150,13 @@ IntakeQ enforces ~10 requests/minute. The connector retries automatically on HTT
 - Webhooks
 - Bulk operations
 - Creating treatment notes (not available in IntakeQ API)
+
+## Other open-source connectors by Oktopeak
+
+Same architecture (encrypted key storage, audit logging, rate limiting), different platforms:
+
+- **[Clio MCP](https://github.com/oktopeak/clio-mcp)** — Claude + Clio practice management (`@oktopeak/clio-mcp`)
+- **[MyCase MCP](https://github.com/oktopeak/mycase-mcp)** — Claude + MyCase legal practice management (`@oktopeak/mycase-mcp`)
+- **[Filevine MCP](https://github.com/oktopeak/filevine-mcp)** — Claude + Filevine practice management (`@oktopeak/filevine-mcp`)
+
+Built by [Oktopeak](https://oktopeak.com) — a SaaS product agency for regulated industries.
