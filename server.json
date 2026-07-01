@@ -5,10 +5,10 @@
   "description": "IntakeQ/PracticeQ MCP connector with HIPAA §164.312(b) audit logging on every PHI read/write",
   "version": "1.0.0",
   "repository": {
-    "url": "https://https://github.com/oktopeak/IntakeQ",
+    "url": "https://github.com/oktopeak/IntakeQ",
     "source": "github"
   },
-  "websiteUrl": "https://https://github.com/oktopeak/IntakeQ",
+  "websiteUrl": "https://github.com/oktopeak/IntakeQ",
   "packages": [
     {
       "registryType": "npm",
