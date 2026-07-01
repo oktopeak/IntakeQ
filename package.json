@@ -4,6 +4,16 @@
   "description": "IntakeQ/PracticeQ MCP connector with HIPAA §164.312(b) audit logging",
   "type": "module",
   "main": "build/index.js",
+  "author": "Oktopeak <office@oktopeak.com> (https://oktopeak.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktopeak/IntakeQ.git"
+  },
+  "homepage": "https://github.com/oktopeak/IntakeQ#readme",
+  "files": ["build"],
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "intakeq-mcp": "build/index.js"
   },
