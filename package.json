@@ -1,6 +1,7 @@
 {
   "name": "@oktopeak/intakeq-mcp",
-  "version": "1.0.0",
+  "mcpName": "io.github.oktopeak/intakeq-mcp",
+  "version": "1.0.1",
   "description": "IntakeQ/PracticeQ MCP connector with HIPAA §164.312(b) audit logging",
   "type": "module",
   "main": "build/index.js",

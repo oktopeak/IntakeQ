@@ -3,7 +3,7 @@
   "name": "io.github.oktopeak/intakeq-mcp",
   "title": "IntakeQ MCP",
   "description": "IntakeQ/PracticeQ MCP connector with HIPAA §164.312(b) audit logging on every PHI read/write",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/oktopeak/IntakeQ",
     "source": "github"
@@ -13,7 +13,7 @@
     {
       "registryType": "npm",
       "identifier": "@oktopeak/intakeq-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": { "type": "stdio" },
       "environmentVariables": [
         {
