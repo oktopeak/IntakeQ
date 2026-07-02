@@ -1,5 +1,8 @@
 # @oktopeak/intakeq-mcp
 
+> ### Built by [Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=top-byline) — AI transformation & automation for healthcare practices
+> **Digital transformation for healthcare and legal businesses.** We build AI integrations, workflow automation, and custom software your practice owns outright — including this connector. → [Book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=top-byline-call)
+
 IntakeQ/PracticeQ MCP connector for Claude. Gives Claude access to your
 IntakeQ scheduling, intake forms, treatment notes, invoices, and client records
 through the [Model Context Protocol](https://modelcontextprotocol.io/).
@@ -159,4 +162,13 @@ Same architecture (encrypted key storage, audit logging, rate limiting), differe
 - **[MyCase MCP](https://github.com/oktopeak/mycase-mcp)** — Claude + MyCase legal practice management (`@oktopeak/mycase-mcp`)
 - **[Filevine MCP](https://github.com/oktopeak/filevine-mcp)** — Claude + Filevine practice management (`@oktopeak/filevine-mcp`)
 
-Built by [Oktopeak](https://oktopeak.com) — a SaaS product agency for regulated industries.
+## Who we are
+
+**[Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=who-we-are) — digital transformation for healthcare and law firms.**
+
+We're a 7-person in-house product team building AI solutions for regulated industries: AI integrations, workflow automation, and custom software our clients own outright. We maintain four open-source MCP connectors — [Clio](https://github.com/oktopeak/clio-mcp), [MyCase](https://github.com/oktopeak/mycase-mcp), [Filevine](https://github.com/oktopeak/filevine-mcp), and IntakeQ — and deploy them inside real practices with scoped credentials, audit logs, and workflows built around how your team actually works.
+
+- 🌐 [oktopeak.com](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=who-we-are)
+- 📅 [Book a 30-min call](https://calendly.com/office-oktopeak/30min?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=who-we-are-call)
+- ✉️ office@oktopeak.com — security reports welcome
+- 💼 [LinkedIn](https://www.linkedin.com/company/oktopeak-tech)
