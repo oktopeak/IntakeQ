@@ -162,6 +162,15 @@ Same architecture (encrypted key storage, audit logging, rate limiting), differe
 - **[MyCase MCP](https://github.com/oktopeak/mycase-mcp)** — Claude + MyCase legal practice management (`@oktopeak/mycase-mcp`)
 - **[Filevine MCP](https://github.com/oktopeak/filevine-mcp)** — Claude + Filevine practice management (`@oktopeak/filevine-mcp`)
 
+## Supporting this project
+
+This connector is free, MIT licensed, and maintained by [Oktopeak](https://oktopeak.com). It always will be — we don't take donations. If it saved you time, the things that actually help:
+
+- **Star this repo.** It is genuinely how other firms find it.
+- **Tell another firm** running IntakeQ.
+- **[Leave a review](https://clutch.co/profile/oktopeak)** if we helped you directly.
+- Need it deployed, extended, or maintained for your firm? **[Commercial support](https://oktopeak.com/services/healthcare-ai-integration/)** — that is what funds the free work.
+
 ## Who we are
 
 **[Oktopeak](https://oktopeak.com/?utm_source=github&utm_medium=readme&utm_campaign=intakeq-mcp&utm_content=who-we-are) — digital transformation for healthcare and law firms.**
